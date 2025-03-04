@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-class Main {
+class RandomIntArray {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int size = s.nextInt();
@@ -15,8 +15,8 @@ class Main {
 
         You can also use math expressions for personalized intervals:
         n = r.nexInt(101) - 50;
-        This generates numbers in the range [-50, 50].
-         */
+        This generates numbers in the range [-50, 50]. */
+
         Random r = new Random();
         int n;
 
