@@ -8,12 +8,26 @@ def populate_list(size):
     
     return int_list
 
+def number_type(int_list):
+    for number in int_list:
+        if number % 3 == 0:
+            print(f"{number} - is a multiple of three.")
+        elif number % 2 == 0:
+            print(f"{number} - even number.")
+        else:
+            print(f"{number} - odd number.")
+
 
 def main():
-    size = int(input("Enter the size of the list: "))
+    try:
+        size = int(input("Enter the size of the list: "))
 
-    my_list = populate_list(size)
-    print(my_list)
+        my_list = populate_list(size)
+
+        number_type(my_list)
+
+    except ValueError:
+        print("Invalid input. Please enter a valid integer.")
 
 if __name__ == "__main__":
     main()
