@@ -20,13 +20,13 @@ class RandomIntArray {
         Random r = new Random();
         int n;
 
-        int[] array = new int[size];
+        int[] randomNumbers = new int[size];
 
         for(int i = 0; i < size; i++){
             // This will generate in the range [-5, 5]:
             n = r.nextInt(11) - 5;
-            array[i] = n;
-            System.out.println(array[i]);
+            randomNumbers[i] = n;
+            System.out.println(randomNumbers[i]);
         }
     }
 }
