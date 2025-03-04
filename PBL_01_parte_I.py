@@ -3,6 +3,7 @@ import random
 def populate_list(size):
     int_list = []
 
+    # Uses the randint method to populate the list:
     for number in range(size):
         int_list.append(random.randint(1, 150))
     
