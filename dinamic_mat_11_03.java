@@ -22,6 +22,15 @@ class DinamicMat {
                 randomNumbers[i][j] = n;
                 System.out.printf("%.2f ", randomNumbers[i][j]);
             }
+            System.out.println();
         }
+
+        /*
+        for(double[] linhas : randomNumbers) {
+            for(double[] colunas : linhas) {
+                System.out.printf("%.4f\t", colunas);
+            }
+        }
+        */
     }
 }
