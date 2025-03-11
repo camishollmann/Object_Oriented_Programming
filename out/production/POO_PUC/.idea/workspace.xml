@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3264f6ca-41e1-444f-868d-9643912aeb13" name="Changes" comment="Started part II.">
-      <change beforePath="$PROJECT_DIR$/PBL_01_parte_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/PBL_01_parte_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_int_array_25_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/random_int_array_25_02.java" afterDir="false" />
+    <list default="true" id="a515dbbd-d8e2-4d9d-bbba-60e0114f3824" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/POO_PUC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO_PUC/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,126 +22,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;camishollmann&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "camishollmann"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/camishollmann/POO_PUC.git&quot;,
-    &quot;accountId&quot;: &quot;f025b27b-117b-4700-8df4-1ea015f6bd1b&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/camishollmann/POO_PUC.git",
+    "accountId": "f025b27b-117b-4700-8df4-1ea015f6bd1b"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2tpIKWAtUKEn2oo5sZVDZUeKNn5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2uBgr253F85P36gp825mJ6sBwGg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FinalValueK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomIntArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/camilla/IdeaProjects/POO_PUC/01_and_02_25_02_25/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DinamicMat.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/camilla/Documents/GitHub/POO_PUC"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/01_and_02_25_02_25" />
-      <recent name="$PROJECT_DIR$/final_value_of_k_25_02" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="POO_PUC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="POO_PUC" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3264f6ca-41e1-444f-868d-9643912aeb13" name="Changes" comment="" />
-      <created>1741042526807</created>
+      <changelist id="a515dbbd-d8e2-4d9d-bbba-60e0114f3824" name="Changes" comment="" />
+      <created>1741727576880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741042526807</updated>
+      <updated>1741727576880</updated>
     </task>
-    <task id="LOCAL-00001" summary="Addded comments on the use of &quot;Random&quot; class.">
-      <option name="closed" value="true" />
-      <created>1741044431374</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1741044431374</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Addded comments on the use of &quot;Random&quot; class.">
-      <option name="closed" value="true" />
-      <created>1741044440782</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1741044440782</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added exercise 2 of classes 1 and 2 (good &quot;for&quot; exercise).">
-      <option name="closed" value="true" />
-      <created>1741049093368</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1741049093368</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Shows use of the &quot;Random&quot; class.">
-      <option name="closed" value="true" />
-      <created>1741049137971</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1741049137971</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated system files.">
-      <option name="closed" value="true" />
-      <created>1741049204049</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1741049204049</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Started part II.">
-      <option name="closed" value="true" />
-      <created>1741125267342</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1741125267342</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Addded comments on the use of &quot;Random&quot; class." />
-    <MESSAGE value="Added exercise 2 of classes 1 and 2 (good &quot;for&quot; exercise)." />
-    <MESSAGE value="Shows use of the &quot;Random&quot; class." />
-    <MESSAGE value="Updated system files." />
-    <MESSAGE value="Started part II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started part II." />
   </component>
 </project>
