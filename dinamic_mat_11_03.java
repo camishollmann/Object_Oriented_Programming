@@ -32,5 +32,12 @@ class DinamicMat {
             }
         }
         */
+
+        /*
+        Fazer aqui a soma:
+        - double soma é declarado no for de fora.
+        - soma é incrementado no for de dentro.
+        - o print ocorre após o término do for interno.
+         */
     }
 }
