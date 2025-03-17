@@ -34,7 +34,17 @@ class Bank {
         Client c3 = new Client ("Luciana Teixeira", 5000);
 
         c1.printClientData();
-        c1.withdraw(500);
-        c1.deposit(500);
+        c2.printClientData();
+        c3.printClientData();
+
+        c1.withdraw(1000);
+        c1.printClientData();
+
+        c2.withdraw(2000);
+        c2.deposit(500);
+        c2.printClientData();
+
+        c3.deposit(1000);
+        c3.printClientData();
     }
 }
