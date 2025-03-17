@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a515dbbd-d8e2-4d9d-bbba-60e0114f3824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PBL_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PBL_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/PBL_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
     &quot;Application.ClassePessoa_11_03.executor&quot;: &quot;Run&quot;,
     &quot;Application.DinamicMat.executor&quot;: &quot;Run&quot;,
     &quot;Application.Inicio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PBL03.executor&quot;: &quot;Run&quot;,
     &quot;Application.classe_pessoa_11_03.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,

@@ -24,6 +24,6 @@ class Pessoa {
 class Inicio {
     public static void main(String[] args){
         Pessoa p1 = new Pessoa("Pedro", 19, 0.0f, 1.69f, true, false);
-        Pessoa p2 = new Pessoa("Mark", 34, 70, 1.78, true, true, 2.23f);
+        Pessoa p2 = new Pessoa("Mark", 34, 70, 1.78f, true, true);
     }
 }
