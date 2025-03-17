@@ -12,8 +12,8 @@ class Client {
     public void withdrawl() {
 
     }
-    public void printClientData() {
-
+    public void printClientData(Client c) {
+        System.out.println("Name: %s%nBalance:%2.f%n", c.name, c.balance);
     }
 }
 
@@ -23,6 +23,6 @@ class Bank(){
         Client c2 = new Client("Sandra Rodrigues", 1800);
         Client c3 = new Client ("Luciana Teixeira", 5000);
 
-        printClientData();
+        printClientData(c1);
     }
 }
