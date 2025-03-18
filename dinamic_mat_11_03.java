@@ -14,30 +14,44 @@ class DinamicMat {
         Random r = new Random();
         int n;
 
+        /* Filling out the matrix with random numbers. */
         double[][] randomNumbers = new double[rows][columns];
 
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < columns; j++) {
                 n = r.nextInt(100);
                 randomNumbers[i][j] = n;
-                System.out.printf("%.2f ", randomNumbers[i][j]);
+            }
+        }
+        /* Printing the matrix. "\t" is a "tab" for horizontal tabulation. */
+        for(double[] line : randomNumbers){
+            for (double vertical : line) {
+                System.out.printf("%.4f\t", vertical);
             }
             System.out.println();
         }
-
-        /*
-        for(double[] linhas : randomNumbers) {
-            for(double[] colunas : linhas) {
-                System.out.printf("%.4f\t", colunas);
-            }
-        }
+        /* Adding rows:
+        * [ 4 5 6 ] -> 15
+        * [ 7 8 9 ] -> 24
         */
-
-        /*
-        Fazer aqui a soma:
-        - double soma é declarado no for de fora.
-        - soma é incrementado no for de dentro.
-        - o print ocorre após o término do for interno.
-         */
+        for (int i = 0; i < rows; i++){
+            double sum = 0.0;
+            for (int j = 0; j < columns; j++){
+                sum += randomNumbers[i][j];
+            }
+            System.out.printf("Row %d: %.4f\n", i, sum);
+        }
+        /* Adding columns
+        * [ 4 5 6 ]
+        * [ 7 8 9 ]
+        * 11 13 15
+        */
+        for (int j = 0; j < columns; j++){
+            double sum = 0.0;
+            for (int i = 0; i < rows; i++){
+                sum += randomNumbers[i][j];
+            }
+            System.out.printf("Column %d: %.4f\n", j, sum);
+        }
     }
 }
