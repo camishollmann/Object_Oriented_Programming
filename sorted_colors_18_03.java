@@ -29,8 +29,8 @@ public class sorted_colors_18_03 {
                     System.out.println(palavra);
                 }
             } else if (opcao == 2) {
-                for (String core : cores) {
-                    System.out.println(core);
+                for (String cor : cores) {
+                    System.out.println(cor);
                 }
             } else if (opcao == 9) {
                 loop = false;
