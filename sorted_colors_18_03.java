@@ -25,13 +25,9 @@ public class sorted_colors_18_03 {
             int opcao = s.nextInt();
 
             if (opcao == 1) {
-                for (String palavra : ordenado) {
-                    System.out.println(palavra);
-                }
+                System.out.println(ordenado);
             } else if (opcao == 2) {
-                for (String cor : cores) {
-                    System.out.println(cor);
-                }
+                System.out.println(cores);
             } else if (opcao == 9) {
                 loop = false;
             }
