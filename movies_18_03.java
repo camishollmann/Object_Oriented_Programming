@@ -9,7 +9,7 @@ class Filme {
         this.anoLancamento = anoLancamento;
     }
     public String toString() {
-        return String.format("<Filme titulo=%s, anoLancamento=%d", this.titulo, this.anoLancamento);
+        return String.format("Titulo: %s, Ano de Lancamento: %d", this.titulo, this.anoLancamento);
     }
 }
 
@@ -23,13 +23,14 @@ class Principal {
         Filme filme4 = new Filme("Shrek", (short) 2002);
         Filme filme5 = new Filme("Toy Story", (short) 1995);
 
-        catalogo.add(fi1me1);
+        catalogo.add(filme1);
         catalogo.add(filme2);
         catalogo.add(filme3);
         catalogo.add(filme4);
         catalogo.add(filme5);
 
-        System.out.println(catalogo);
-
+        for (Filme filme: catalogo){
+            System.out.println(filme);
+        }
     }
 }
