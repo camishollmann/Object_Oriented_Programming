@@ -17,7 +17,14 @@ public class Album {
     }
 
     public String toString() {
-        return String.format("");
+        String resultado = String.format(
+                "Gênero: %s%nÁlbum: %s%nArtitsta: %s%nAno: %d%nMúsicas:%n",
+                genero, nomeAlbum, artista, ano
+        );
+        for (String m : musica) {
+            resultado += String.format("- %s%n", m);
+        }
+        return resultado;
     }
 }
 
@@ -28,7 +35,7 @@ class addMusicas{
         String[] musicas = new String[5];
 
         System.out.println("Digite 5 músicas para o álbum: ");
-        for(int i = 0; i < musicas.length; i++) {
+        for (int i = 0; i < musicas.length; i++) {
             System.out.println("Música " + (i + 1) + ": ");
             musicas[i] = s.nextLine();
         }
