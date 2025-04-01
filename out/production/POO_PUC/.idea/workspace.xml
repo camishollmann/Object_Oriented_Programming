@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a515dbbd-d8e2-4d9d-bbba-60e0114f3824" name="Changes" comment="" />
+    <list default="true" id="a515dbbd-d8e2-4d9d-bbba-60e0114f3824" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/Album.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,8 +49,10 @@
     &quot;Application.ClassePessoa_11_03.executor&quot;: &quot;Run&quot;,
     &quot;Application.DinamicMat.executor&quot;: &quot;Run&quot;,
     &quot;Application.Inicio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.PBL03.executor&quot;: &quot;Run&quot;,
     &quot;Application.PBl03b.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
     &quot;Application.classe_pessoa_11_03.executor&quot;: &quot;Run&quot;,
     &quot;Application.sorted_colors_18_03.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,

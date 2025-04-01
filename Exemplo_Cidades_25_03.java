@@ -8,7 +8,7 @@ class Cidade {
     private ArrayList<Rua> ruas;
     private String nome;
 }
-
+/*
 public class Pais {
     private ArrayList<Cidade> cidades;
     private String nome;
@@ -25,3 +25,4 @@ public class Pais {
         this.nome = nome;
     }
 }
+*/
