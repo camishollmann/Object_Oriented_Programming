@@ -9,13 +9,15 @@ class Cidade {
     private String nome;
 }
 
-class Pais {
+public class Pais {
     private ArrayList<Cidade> cidades;
     private String nome;
+
     public Pais(String nome) {
         this.setNome(nome);
         this.cidades = new ArrayList<Cidade>();
     }
+
     public void addCidade(Cidade cidade) {
         this.cidades.add(cidade);
     }
