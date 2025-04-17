@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class sorted_colors_18_03 {
+public class SortedColors {
     public static void main(String[] args) {
         ArrayList<String> cores = new ArrayList<String>();
 
