@@ -1,4 +1,4 @@
-/* Date: 31/03/2025. */
+/* Date: 2025-03-31. */
 import java.util.Scanner;
 import java.util.ArrayList;
 

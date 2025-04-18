@@ -1,4 +1,4 @@
-/* Exercicio de 11/03 */
+/* Date: 2025-03-11. */
 class Pessoa {
     String nome;
     float peso;

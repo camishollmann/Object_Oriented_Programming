@@ -1,4 +1,4 @@
-/* Date: 2025-03-11 */
+/* Date: 2025-03-11. */
 import java.util.Scanner;
 import java.util.Random;
 
