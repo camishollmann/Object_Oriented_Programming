@@ -1,35 +1,44 @@
-class EsporteRadical {
-    pulic void manobras(Skate){
-        System.out.println("Manobra de Skate: " + manobra)
-    }
-    public void manobras(Surf) {
+// Acessar: https://tinyurl.com/aula29-04
 
-    }
-    public void manobras(Patinete){
+package sobrescrita;
 
+public class EsporteRadical {
+    public void manobras() {
+        System.out.println("Adrenalina a mil...");
+    }
+}
+// "Extends" denota heranca.
+class Skate extends EsporteRadical {
+    @Override
+    public void manobras() {
+        System.out.println("Ollie, Kickflip, Manual");
     }
 }
 
-class Skate {
-    private String manobra;
-
-    public Skate(String manobra) {
-        this.manobra = manobra;
+class Surf extends EsporteRadical {
+    @Override
+    public void manobras() {
+        System.out.println("Tubo, Rasgada, Duckdive, Layback");
     }
 }
 
-class Surf {
-    private String manobra;
-
-    public Surf(String manobra) {
-        this.manobra = manobra;
+class Patinete extends EsporteRadical {
+    @Override
+    public void manobras() {
+        System.out.println("Pulo, 360");
     }
 }
 
-class Patinete {
-    private String manobra;
+class main {
+    public static void main(String[] args) {
+        EsporteRadical er = new EsporteRadical();
+        Skate s = new Skate();
+        Patinete p = new Patinete();
+        Surf su = new Surf();
 
-    public Patinete(String manobra) {
-        this.manobra = manobra;
+        er.manobras();
+        s.manobras();
+        p.manobras();
+        su.manobras();
     }
 }
