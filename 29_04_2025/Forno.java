@@ -46,7 +46,7 @@ Class Forno {
 	
 	public void assar(Carne c) {
 		System.out.println("Assando carne");
-    c.mostrarMensagem();
+    	c.mostrarMensagem();
 	}
 	
 	public void assar(Pizza pi) {
