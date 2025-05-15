@@ -28,7 +28,7 @@ public class SortedColors {
             if (opcao == 1) {
                 System.out.println(ordenado);
             } else if (opcao == 2) {
-                System.out.println(cores);
+                System.out.printlSn(cores);
             } else if (opcao == 9) {
                 loop = false;
             }

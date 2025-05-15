@@ -9,12 +9,11 @@ class Filme {
         this.titulo = titulo;
         this.anoLancamento = anoLancamento;
     }
+
     public String toString() {
         return String.format("Titulo: %s, Ano de Lancamento: %d", this.titulo, this.anoLancamento);
     }
-}
 
-class Principal {
     public static void main(String[] args) {
         ArrayList<Filme> catalogo = new ArrayList<>();
 

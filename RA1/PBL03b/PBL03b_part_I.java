@@ -5,7 +5,7 @@ class Usuario {
 
 }
 */
-class PBL03b_I {
+class PBL03b_part_I {
     public static void main(String args[]) {
         boolean loop = true;
         String usuarios[] = new String[100]; // Deve ser declarado fora para nao ser perdido.

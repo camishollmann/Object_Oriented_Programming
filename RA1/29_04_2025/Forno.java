@@ -1,5 +1,5 @@
 // Acessar: https://tinyurl.com/aula29-04package sobrecarga;
-package sobrecarga; 
+package sobrecarga;
 
 class Pizza {
 	private String sabor;
@@ -38,7 +38,7 @@ class Pao {
 }
 
 
-Class Forno {
+class Forno {
 	public void assar(Pao pa) {
 		System.out.println("Assando pão");
 		pa.mostrarMensagem();
