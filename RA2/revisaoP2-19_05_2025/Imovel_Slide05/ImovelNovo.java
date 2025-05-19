@@ -3,7 +3,7 @@ public class ImovelNovo extends Imovel{
         super(endereco, preco);
     }
 
-    public void getAcrescimo(){
-        this.preco = preco * 1.1;
+    public double getAcrescimo(){
+        return this.preco * 1.1;
     }
 }

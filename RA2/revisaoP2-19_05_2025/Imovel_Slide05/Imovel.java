@@ -1,6 +1,6 @@
 public class Imovel{
     String endereco;
-    double preco;
+    double preco = 1000;
 
     public Imovel(String endereco, double preco){
         this.endereco = endereco;

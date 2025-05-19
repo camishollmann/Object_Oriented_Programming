@@ -3,7 +3,7 @@ public class ImovelVelho extends Imovel{
         super(endereco, preco);
     }
 
-    public void getDesconto(){
-        this.preco = preco * 0.9;
+    public double getDesconto(){
+        return this.preco * 0.9;
     }
 }
