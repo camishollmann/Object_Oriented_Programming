@@ -1,4 +1,3 @@
-
 public class ImovelNovo extends Imovel{
     public ImovelNovo(String endereco, double preco){
         super(endereco, preco);
