@@ -5,5 +5,6 @@ public class MercadoImoveis {
         
         System.out.println(casa1.getAcrescimo());
         System.out.println(casa2.getDesconto());
+        System.out.println(casa1);
     }    
 }
